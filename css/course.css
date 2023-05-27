@@ -37,3 +37,30 @@
     padding: 0px 20px;
     color: white;
 }
+
+.tombol{
+    color: #2F2963;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: 900;
+    padding: 10px;
+    width: 80px;
+    text-align: center;
+}
+
+.tombol-materi{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    flex: 1 1 0%;
+    padding-right: 40px;
+    padding-bottom: 35px;
+}
+
+.tombol:hover{
+    background-color: #2F2963;
+    color: white;
+}
