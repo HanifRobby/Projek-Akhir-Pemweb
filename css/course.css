@@ -10,10 +10,10 @@
 .course-card {
     display: flex;
     flex-direction: row;
-    padding: 15px;
+    padding: 10px 20px;
     background-color: var(--primary-color);
     border-radius: 10px;
-    width: 80%;
+    width: 70%;
     text-decoration: none;
     gap: 20px;
     align-items: center;
@@ -24,11 +24,12 @@
 }
 
 .course-img {
-    width: 200px;
+    width: 20%;
 }
 
 .course-head {
     color: white;
+    width: 60%;
 
 }
 
@@ -40,6 +41,14 @@
     color: white;
 }
 
+.tombol-materi{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
 .tombol{
     color: #2F2963;
     text-decoration: none;
@@ -49,17 +58,6 @@
     padding: 10px;
     width: 80px;
     text-align: center;
-}
-
-.tombol-materi{
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    flex: 1 1 0%;
-    padding-right: 40px;
-    padding-bottom: 35px;
 }
 
 .tombol:hover{
