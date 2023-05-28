@@ -1,0 +1,100 @@
+:root {
+    --primary-color: #146C94;
+    --primary-color1: #D7EBED;
+    --secondary-color: #2F2963;
+    --background-color: #AFD3E2;
+}
+
+@font-face {
+    font-family: "Monserrat";
+    src: url("../assets/fonts/Monserrat/Montserrat-Regular.ttf") format("truetype");
+}
+
+.materi-head-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-left: 20%; margin-right: 20%;
+    background-color: var(--primary-color);
+    padding: 20px 40px;
+    color: white;
+}
+
+.materi-img {
+    width: 20%;
+}
+
+.materi-head {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.materi-board {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px; margin-bottom: 75px;
+    align-items: center;
+}
+
+.materi-card {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    background-color: var(--primary-color);
+    padding: 20px;
+    color: white;
+    gap: 20px;
+    justify-content: center;
+}
+
+.materi-content {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.materi-content h1 {
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 0px 20px;
+    color: white;
+    margin: 0px;
+}
+
+.materi-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10%;
+}
+
+.download-button{
+    color: #2F2963;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: 900;
+    padding: 10px;
+    width: 80px;
+    text-align: center;
+}
+
+.download-button:hover{
+    background-color: #2F2963;
+    color: white;
+}
+
+.img-share {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.mtr-img {
+    width: 2rem;
+    height: 2rem;
+}
