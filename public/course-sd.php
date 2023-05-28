@@ -41,7 +41,7 @@
                 </div>
                 <div class="tombol-materi">
                     <a href="" class="tombol">Soal</a>
-                    <a href="" class="tombol">Materi</a>
+                    <a href="../public/materi-sd.php" class="tombol">Materi</a>
                 </div>
             </div>
 

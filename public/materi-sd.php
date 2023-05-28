@@ -49,7 +49,7 @@
                     <p>Pada materi kali ini kalian bakal belajar materi di atas jadi jangan lupa dibaca ya</p>
                 </div>
                 <div class="materi-right">
-                    <a class="download-button" href="">
+                    <a class="download-button" href="download.php" download>
                         Download
                     </a>
                     <div class="img-share">
