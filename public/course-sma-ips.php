@@ -30,9 +30,7 @@
         <div class="course-board">
 
             <div class="course-card">
-                <div class="course-img">
-                    <img class="course-img" src="../assets/images/equation.png" alt="">
-                </div>
+                <img class="course-img" src="../assets/images/equation.png" alt="">
                 <div class="course-head">
                     <div class="course-title">
                         <h1>Matematika</h1>
@@ -48,9 +46,7 @@
             </div>
 
             <div class="course-card">
-                <div class="course-img">
-                    <img class="course-img" src="../assets/images/book.png" alt="">
-                </div>
+                <img class="course-img" src="../assets/images/book.png" alt="">
                 <div class="course-head">
                     <div class="course-title">
                         <h1>Bahasa Indonesia</h1>
@@ -66,15 +62,13 @@
             </div>
 
             <div class="course-card">
-                <div class="course-img">
-                    <img class="course-img" src="../assets/images/notebook.png" alt="">
-                </div>
+                <img class="course-img" src="../assets/images/notebook.png" alt="">
                 <div class="course-head">
                     <div class="course-title">
                         <h1>Bahasa Inggris</h1>
                     </div>
                     <div class="course-content">
-                        <p>Pelajaran Bahasa Inggris bertujuan untuk  mengembangkan kemampuan komunikasi yang lebih baik, meningkatkan pemahaman teks dalam bahasa Inggris, dan memperluas kosa kata serta tata bahasa yang lebih kompleks.</p>
+                        <p>Pelajaran Bahasa Inggris bertujuan untuk mengembangkan kemampuan komunikasi yang lebih baik, meningkatkan pemahaman teks dalam bahasa Inggris, dan memperluas kosa kata serta tata bahasa yang lebih kompleks.</p>
                     </div>
                 </div>
                 <div class="tombol-materi">
@@ -82,17 +76,15 @@
                     <a href="" class="tombol">Materi</a>
                 </div>
             </div>
-            
+
             <div class="course-card">
-                <div class="course-img">
-                    <img class="course-img" src="../assets/images/economics.png" alt="">
-                </div>
+                <img class="course-img" src="../assets/images/economics.png" alt="">
                 <div class="course-head">
                     <div class="course-title">
                         <h1>Ekonomi</h1>
                     </div>
                     <div class="course-content">
-                        <p>Pelajaran Bahasa Inggris bertujuan untuk  mengembangkan kemampuan komunikasi yang lebih baik, meningkatkan pemahaman teks dalam bahasa Inggris, dan memperluas kosa kata serta tata bahasa yang lebih kompleks.</p>
+                        <p>Pelajaran Bahasa Inggris bertujuan untuk mengembangkan kemampuan komunikasi yang lebih baik, meningkatkan pemahaman teks dalam bahasa Inggris, dan memperluas kosa kata serta tata bahasa yang lebih kompleks.</p>
                     </div>
                 </div>
                 <div class="tombol-materi">
@@ -102,15 +94,13 @@
             </div>
 
             <div class="course-card">
-                <div class="course-img">
-                    <img class="course-img" src="../assets/images/biology.png" alt="">
-                </div>
+                <img class="course-img" src="../assets/images/biology.png" alt="">
                 <div class="course-head">
                     <div class="course-title">
                         <h1>Sosiologi</h1>
                     </div>
                     <div class="course-content">
-                        <p>Pelajaran Bahasa Inggris bertujuan untuk  mengembangkan kemampuan komunikasi yang lebih baik, meningkatkan pemahaman teks dalam bahasa Inggris, dan memperluas kosa kata serta tata bahasa yang lebih kompleks.</p>
+                        <p>Pelajaran Bahasa Inggris bertujuan untuk mengembangkan kemampuan komunikasi yang lebih baik, meningkatkan pemahaman teks dalam bahasa Inggris, dan memperluas kosa kata serta tata bahasa yang lebih kompleks.</p>
                     </div>
                 </div>
                 <div class="tombol-materi">
@@ -120,15 +110,13 @@
             </div>
 
             <div class="course-card">
-                <div class="course-img">
-                    <img class="course-img" src="../assets/images/geography.png" alt="">
-                </div>
+                <img class="course-img" src="../assets/images/geography.png" alt="">
                 <div class="course-head">
                     <div class="course-title">
                         <h1>Geografi</h1>
                     </div>
                     <div class="course-content">
-                        <p>Pelajaran Bahasa Inggris bertujuan untuk  mengembangkan kemampuan komunikasi yang lebih baik, meningkatkan pemahaman teks dalam bahasa Inggris, dan memperluas kosa kata serta tata bahasa yang lebih kompleks.</p>
+                        <p>Pelajaran Bahasa Inggris bertujuan untuk mengembangkan kemampuan komunikasi yang lebih baik, meningkatkan pemahaman teks dalam bahasa Inggris, dan memperluas kosa kata serta tata bahasa yang lebih kompleks.</p>
                     </div>
                 </div>
                 <div class="tombol-materi">

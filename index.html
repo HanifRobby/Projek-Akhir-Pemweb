@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="web icon" href="assets/icons/Logo.png">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/navbar.css">
     <title>Edukasi</title>
 </head>
 
@@ -15,25 +16,44 @@
     <!-- Header -->
     <header>
         <div class="navbar">
-            <a href="/index.html" style="text-decoration: none;">
+            <a href="../public/home.php" style="text-decoration: none;">
                 <div class="logo">
-                    <img class="logo-icon" src="assets/icons/Logo.png" alt="logo">
+                    <img class="logo-icon" src="../assets/icons/Logo.png" alt="logo">
                 </div>
             </a>
             <div class="nav">
-                <a class="nav-button" href="#">Course</a>
-                <ul>
-                    <li>
-                        <a href="">A</a>
-                        <a href="">B</a>
-                        <a href="">C</a>
-                        <a href="">D</a>
-                    </li>
-                </ul>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Course</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="../public/course-sd.php">Sekolah Dasar</a>
+                        <a href="../public/course-smp.php">Sekolah Menengah Pertama</a>
+                        <a href="../public/course-sma-ipa.php">Sekolah Menengah Atas - IPA</a>
+                        <a href="../public/course-sma-ips.php">Sekolah Menengah Atas - IPS</a>
+                        <a href="../public/utbk.php">UTBK-SNBT</a>
+                    </div>
+                </div>
+                <script>
+                    function myFunction() {
+                        document.getElementById("myDropdown").classList.toggle("show");
+                    }
+
+                    window.onclick = function (event) {
+                        if (!event.target.matches('.dropbtn')) {
+                            var dropdowns = document.getElementsByClassName("dropdown-content");
+                            var i;
+                            for (i = 0; i < dropdowns.length; i++) {
+                                var openDropdown = dropdowns[i];
+                                if (openDropdown.classList.contains('show')) {
+                                    openDropdown.classList.remove('show');
+                                }
+                            }
+                        }
+                    }
+                </script>
                 <a class="nav-button" href="#">Event</a>
                 <a class="nav-button" href="#">Layanan</a>
-                <a class="login-button" href="public/login.html">Login</a>
-                <a class="register-button" href="public/register.html">Register</a>
+                <a class="login-button" href="../public/login.html">Login</a>
+                <a class="register-button" href="../public/register.html">Register</a>
             </div>
         </div>
     </header>
@@ -62,7 +82,7 @@
                 <img id="dash-img2" src="assets/images/landingpage-image2.png" style="width: 50%" alt="">
             </div>
         </section>
-                
+
         <section class="information">
             <div class="info-head">
                 <h1 style="font-size: 2rem; font-weight: 1000;">Informasi Terkini</h1>
@@ -100,7 +120,8 @@
         <section class="about">
             <div class="about-head">
                 <h1 style="font-size: 2rem;">About This Course</h1>
-                <p style="font-size: 1.2rem;">EDUKASI kali ini mempunyai beberapa keunggulan diantaranya seperti berikut</p>
+                <p style="font-size: 1.2rem;">EDUKASI kali ini mempunyai beberapa keunggulan diantaranya seperti berikut
+                </p>
             </div>
             <div class="advantages">
                 <div class="adv-card">

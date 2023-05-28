@@ -1,3 +1,8 @@
+<?php
+
+?>
+
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -6,7 +11,8 @@
         <meta charset="UTF-8">
         <link rel="web icon" href="../assets/icons/Logo.png">
         <link rel="stylesheet" href="../css/register.css">
-        <title>REGISTER</title>
+        <script src="../js/register-validation.js"></script>
+        <title>Register</title>
     </head>
     <body>
         <div class="login">
@@ -16,15 +22,15 @@
             </div>
             <div class="group2">
                 <h1 class="judul">REGISTER</h1>
-                <form action="">
+                <form name="testForm" onsubmit="return validasi()" action="../php/register.php" method="post">
                     <label class="email" for="username">Fullname:</label>
                     <br>
-                    <input class="kolom" type="text" id="namaPanjang" name="username" required>
+                    <input class="kolom" type="text" id="fullname" name="fullname" required>
                     <br>
                     <br>
-                    <label class="password" for="password">Email:</label>
+                    <label class="password" for="password">username:</label>
                     <br>
-                    <input class="kolom" type="text" id="email" name="email" required>
+                    <input class="kolom" type="text" id="username" name="username" required>
                     <br>
                     <br>
                     <label class="email" for="username">Password:</label>
@@ -32,19 +38,19 @@
                     <input class="kolom" type="password" id="password" name="password" required>
                     <br>
                     <br>
-                    <label class="password" for="password">Nomor Handphone:</label>
+                    <label class="password" for="password">E-Mail:</label>
                     <br>
-                    <input class="kolom" type="text" id="noHP" name="password" required>
+                    <input class="kolom" type="text" id="email" name="email" required>
                     <br>
                     <br>
                     <input class="kotak" type="checkbox" id="myCheckbox" name="myCheckbox">
                     <label class="cek" for="myCheckbox">Saya sudah membaca syarat dan ketentuan</label>
                     <br>
                     <br>
-                    <input class="tombol" type="submit" value="Register">
+                    <input class="tombol" type="submit" name="Register" value="Register">
                     <br>
                         <div class="kata">
-                            <p style="font-weight: 200;">Already Registerd? <a class="link" href="login.html">Login</a></p>
+                            <p style="font-weight: 200;">Already Registered? <a class="link" href="login.html">Login</a></p>
                         </div>
                 </form>
             </div>
