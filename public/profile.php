@@ -42,11 +42,13 @@
                         <label for="">
                             <h2>Nama Lengkap</h2>
                         </label>
+                        Hanif Robby
                     </div>
                     <div class="school">
                         <label for="">
                             <h2>Sekolah</h2>
                         </label>
+                        Sekolah Dasar
                     </div>
                     <div class="jenjang">
                         <label for="">

@@ -13,8 +13,10 @@
     padding: 15px;
     background-color: var(--primary-color);
     border-radius: 10px;
-    width: 70%;
+    width: 80%;
     text-decoration: none;
+    gap: 20px;
+    align-items: center;
 }
 
 .course-card:hover {

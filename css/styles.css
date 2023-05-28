@@ -302,6 +302,13 @@ body {
     flex-direction: column;
 }
 
+.profile-info > .name, .school, .jenjang {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
 .profile-head {
     display: flex;
     flex-direction: row;
@@ -338,16 +345,9 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
 }
 
-.kotak{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
 /* course */
 
-.course-board {
+/* .course-board {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -385,7 +385,7 @@ body {
     width: fit-content;
     padding: 0px 20px;
     color: white;
-}
+} */
 
 @media only screen and (max-width: 1200px) {
     html {

@@ -10,6 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="web icon" href="../assets/icons/Logo.png">
+    <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/course.css">
     <title>Course SMA IPA</title>
 </head>
@@ -37,7 +38,7 @@
                         <h1>Matematika</h1>
                     </div>
                     <div class="course-content">
-                        <p style="width: 600px;">Matematika adalah cabang ilmu yang mempelajari tentang angka, hitungan, struktur, ruang, dan pola yang bertujuan untuk mengembangkan pemahaman konsep dasar matematika dan keterampilan komputasi</p>
+                        <p>Matematika adalah cabang ilmu yang mempelajari tentang angka, hitungan, struktur, ruang, dan pola yang bertujuan untuk mengembangkan pemahaman konsep dasar matematika dan keterampilan komputasi</p>
                     </div>
                 </div>
                 <div class="tombol-materi">
@@ -55,7 +56,7 @@
                         <h1>Bahasa Indonesia</h1>
                     </div>
                     <div class="course-content">
-                        <p style="width: 600px;">Pelajaran Bahasa Indonesia yang bertujuan untuk memperkenalkan dan mengembangkan kemampuan mereka dalam berbahasa Indonesia secara baik dan benar</p>
+                        <p>Pelajaran Bahasa Indonesia yang bertujuan untuk memperkenalkan dan mengembangkan kemampuan mereka dalam berbahasa Indonesia secara baik dan benar</p>
                     </div>
                 </div>
                 <div class="tombol-materi">
@@ -73,7 +74,7 @@
                         <h1>Bahasa Inggris</h1>
                     </div>
                     <div class="course-content">
-                        <p style="width: 600px;">Pelajaran Bahasa Inggris bertujuan untuk  mengembangkan kemampuan komunikasi yang lebih baik, meningkatkan pemahaman teks dalam bahasa Inggris, dan memperluas kosa kata serta tata bahasa yang lebih kompleks.</p>
+                        <p>Pelajaran Bahasa Inggris bertujuan untuk  mengembangkan kemampuan komunikasi yang lebih baik, meningkatkan pemahaman teks dalam bahasa Inggris, dan memperluas kosa kata serta tata bahasa yang lebih kompleks.</p>
                     </div>
                 </div>
                 <div class="tombol-materi">
@@ -91,7 +92,7 @@
                         <h1>Fisika</h1>
                     </div>
                     <div class="course-content">
-                        <p style="width: 600px;">Pelajaran Bahasa Inggris bertujuan untuk  mengembangkan kemampuan komunikasi yang lebih baik, meningkatkan pemahaman teks dalam bahasa Inggris, dan memperluas kosa kata serta tata bahasa yang lebih kompleks.</p>
+                        <p>Pelajaran Bahasa Inggris bertujuan untuk  mengembangkan kemampuan komunikasi yang lebih baik, meningkatkan pemahaman teks dalam bahasa Inggris, dan memperluas kosa kata serta tata bahasa yang lebih kompleks.</p>
                     </div>
                 </div>
                 <div class="tombol-materi">
@@ -109,7 +110,7 @@
                         <h1>Biologi</h1>
                     </div>
                     <div class="course-content">
-                        <p style="width: 600px;">Pelajaran Bahasa Inggris bertujuan untuk  mengembangkan kemampuan komunikasi yang lebih baik, meningkatkan pemahaman teks dalam bahasa Inggris, dan memperluas kosa kata serta tata bahasa yang lebih kompleks.</p>
+                        <p>Pelajaran Bahasa Inggris bertujuan untuk  mengembangkan kemampuan komunikasi yang lebih baik, meningkatkan pemahaman teks dalam bahasa Inggris, dan memperluas kosa kata serta tata bahasa yang lebih kompleks.</p>
                     </div>
                 </div>
                 <div class="tombol-materi">
@@ -127,7 +128,7 @@
                         <h1>Kimia</h1>
                     </div>
                     <div class="course-content">
-                        <p style="width: 600px;">Pelajaran Bahasa Inggris bertujuan untuk  mengembangkan kemampuan komunikasi yang lebih baik, meningkatkan pemahaman teks dalam bahasa Inggris, dan memperluas kosa kata serta tata bahasa yang lebih kompleks.</p>
+                        <p>Pelajaran Bahasa Inggris bertujuan untuk  mengembangkan kemampuan komunikasi yang lebih baik, meningkatkan pemahaman teks dalam bahasa Inggris, dan memperluas kosa kata serta tata bahasa yang lebih kompleks.</p>
                     </div>
                 </div>
                 <div class="tombol-materi">
