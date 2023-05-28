@@ -1,0 +1,89 @@
+.soal-card{
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    gap: 20px;
+    width: 80%;
+}
+
+.chosee{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+
+.course-card {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    width: 70%;
+    text-decoration: none;
+    gap: 20px;
+    align-items: center;
+}
+
+.course-board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 40px;
+}
+
+.course-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+}
+
+.course-title {
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 0px 20px;
+    color: white;
+}
+
+.tombol-materi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    padding-left: 260px;
+    padding-top: 110px;
+}
+
+.tombol{
+    border-color: white;
+    color: #2F2963;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: 900;
+    padding: 10px;
+    width: 100px;
+}
+
+.tombol:hover{
+    border-color: #2F2963;
+    background-color: #2F2963;
+    color: white;
+}
+
+.course-img {
+    width: 20%;
+}
+
+.judul{
+    color: #FFFFFF;
+}
+
+.latihan{
+    font-weight: 850;
+    font-size: 20px;
+    color: #FFFFFF;
+}
