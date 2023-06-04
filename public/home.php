@@ -1,16 +1,20 @@
 <?php
     session_start();
-
     // ngecek kalo udah login apa belom
-    // harusnya untuk semua file.
     require '../components/info-card.php';
     if( !isset($_SESSION["login"]) ) {
-        header("Location: login.html");
+        header("Location: login.php");
         exit;
     }
-    
+    else{
+        $row = $_SESSION["row"];
+        $fullname = $row['fullname'];
+        $username = $row['username'];
+        $email = $row['email'];
 
-    echo $_SESSION["row"]["username"];
+    }
+    
+   
 ?>
 
 <html lang="en">

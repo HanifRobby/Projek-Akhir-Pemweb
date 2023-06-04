@@ -1,5 +1,3 @@
-
-
 <?php
     $conn = mysqli_connect("localhost", "root", "", "projekakhirpemweb");
 
@@ -18,7 +16,7 @@
             echo "<script>
                     alert('username sudah terdaftar!')
                   </script>";
-            header("Location: ../public/register.html");
+            header("Location: ../public/register.php");
             exit;
             return false;
             

@@ -2,14 +2,11 @@
 
 ?>
 
-
 <!DOCTYPE html>
 <html>
     <head>
         <script>
             function validasi() {
-                event.preventDefault();
-
                 var password =
                     document.forms.testForm.password.value;
                 var email =
@@ -21,19 +18,24 @@
                 if(password.length <6){
                     alert("Password minimal 6 karakter!");
                     password.focus();
-                    return false;
-            
+                    header("Location: ../public/register.php");
+		            exit;
+                    return false;    
                 }
                 
                 if(email == "" || !regEmail.test(email)) {
                     window.alert("Tolong masukkan email yang valid!");
                     email.focus();
-                    return false;
+                    header("Location: ../public/register.php");
+		            exit;
+                    return false;  
                 }
 
                 if(!check.checked){
                     alert("Tolong baca dan setujui syarat dan ketentuan terlebih dahulu!");
                     check.focus();
+                    header("Location: ../public/register.php");
+		            exit; 
                     return false;
                 }
 
@@ -48,7 +50,7 @@
         <meta charset="UTF-8">
         <link rel="web icon" href="../assets/icons/Logo.png">
         <link rel="stylesheet" href="../css/register.css">
-        <script src="../js/register-validation.js"></script>
+        <!-- <script src="../js/register-validation.js"></script> -->
         <title>Register</title>
     </head>
     <body>
@@ -87,7 +89,7 @@
                     <input class="tombol" type="submit" name="Register" value="Register">
                     <br>
                         <div class="kata">
-                            <p style="font-weight: 200;">Already Registered? <a class="link" href="login.html">Login</a></p>
+                            <p style="font-weight: 200;">Already Registered? <a class="link" href="login.php">Login</a></p>
                         </div>
                 </form>
             </div>

@@ -16,7 +16,7 @@
             </div>
             <div class="group2">
                 <h1 class="judul">SIGN IN</h1>
-                <form action="">
+                <form action="../php/login.php" method="post">
                     <label class="email" for="username">Email:</label>
                     <br>
                     <input class="kolom" type="text" id="username" name="username" required>
@@ -30,10 +30,11 @@
                     <label class="cek" for="myCheckbox">Ingat saya</label>
                     <br>
                     <br>
-                    <input class="tombol" type="submit" value="Login">
+                    <input class="tombol" type="submit" value="Login" name="Login" id="Login" >
+    
                     <br>
                         <div class="kata">
-                            <p style="font-weight: 200;">Tidak punya akun? <a class="link" href="register.html">Register</a></p>
+                            <p style="font-weight: 200;">Tidak punya akun? <a class="link" href="register.php">Register</a></p>
                         </div>
                 </form>
             </div>

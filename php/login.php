@@ -16,7 +16,6 @@ if( isset($_POST["Login"]) ) {
 		// cek password
 		if(password_verify($password, $row["password"]) ) {
 			$_SESSION["login"] = true;
-			$_SESSION["username"] = $row["username"];
 			$_SESSION["row"] = $row;
 			
 			echo "<script>
@@ -38,7 +37,7 @@ if( isset($_POST["Login"]) ) {
                 alert('username anda salah');
               </script>";
 	
-		header("Location: ../public/login.html");
+		header("Location: ../public/login.php");
 		exit;
 		
 	}

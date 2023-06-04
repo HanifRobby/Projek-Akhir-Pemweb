@@ -1,4 +1,22 @@
 <?php
+
+    session_start();
+    // ngecek kalo udah login apa belom
+    require '../components/info-card.php';
+    if( !isset($_SESSION["login"]) ) {
+        header("Location: login.php");
+        exit;
+    }
+    else{
+        $row = $_SESSION["row"];
+        $fullname = $row['fullname'];
+        $username = $row['username'];
+        $email = $row['email'];
+
+    }
+    
+
+
     // Check if the filename query parameter is provided
     if (isset($_GET['filename'])) {
         $filename = $_GET['filename'];
