@@ -31,10 +31,10 @@
         <div class="materi-head-container">
             <img class="materi-img" src="../assets/images/book.png" alt="">
             <div class="materi-head">
-                <h1>Sekolah Dasar</h1>
+                <h1>Sekolah Menengah Pertama</h1>
                 <h1>Matematika</h1>
             </div>
-            <h2>Kelas 6</h2>
+            <h2>Kelas 8</h2>
         </div>
 
         <?php
@@ -45,11 +45,11 @@
             <div class="materi-card">
                 <img class="materi-img" src="../assets/images/book.png" alt="">
                 <div class="materi-content">
-                    <h1>Penjumlahan</h1>
+                    <h1>Aljabar dan Trigonometri Dasar</h1>
                     <p>Pada materi kali ini kalian bakal belajar materi di atas jadi jangan lupa dibaca ya</p>
                 </div>
                 <div class="materi-right">
-                    <a class="download-button" href="download.php?filename=materi-sd.pdf" download>
+                    <a class="download-button" href="download.php?filename=materi-smp.pdf" download>
                         Download
                     </a>
                     <div class="img-share">

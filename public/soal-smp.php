@@ -30,7 +30,7 @@
                 <img class="course-img" src="../assets/images/equation.png" alt="">
                 <div class="course-head">
                     <div class="course-title">
-                        <h1>SEKOLAH DASAR</h1>
+                        <h1>SEKOLAH MENENGAH PERTAMA</h1>
                     </div>
                     <div class="course-content">
                         <h1 class="judul">MATEMATIKA</h1>
@@ -38,7 +38,7 @@
                     </div>
                 </div>
                 <div class="tombol-materi">
-                    <a class="tombol" href="download.php?filename=soal-sd.pdf" download>
+                    <a class="tombol" href="download.php?filename=soal-smp.pdf" download>
                         Download
                     </a>
                 </div>
@@ -46,30 +46,30 @@
 
             <div class="soal-card">
                 <div class="soal">
-                    <h2>1. Berapa jumlah operasi perhitungan ini?</h2>
-                    <h2>3(2 x 3) + 2 = </h2>
+                    <h2>1. Hitunglah hasil dari penjumlahan dua aljabar berikut ini!</h2>
+                    <h2>-3a - b + 7 dan 13a - (-2b) + 4</h2>
                 </div>
                 <div class="pilihan">
                         <label class="chosee" for="option1">
-                            <input type="radio" id="option1" name="option" value="option1"> 24
+                            <input type="radio" id="option1" name="option" value="option1"> 10a + b + 11 
                         </label>
 
                         <br>
 
                         <label class="chosee" for="option2">
-                            <input type="radio" id="option2" name="option" value="option2"> 20
+                            <input type="radio" id="option2" name="option" value="option2"> 11a + b + 12
                         </label>
 
                         <br>
 
                         <label class="chosee" for="option3">
-                            <input type="radio" id="option3" name="option" value="option3"> 11
+                            <input type="radio" id="option3" name="option" value="option3"> 12a + b + 13 
                         </label>
 
                         <br>
 
                         <label class="chosee"for="option4">
-                            <input type="radio" id="option3" name="option" value="option3"> 30
+                            <input type="radio" id="option3" name="option" value="option3"> 13a + b + 14 
                         </label>
                     </form>
                 </div>

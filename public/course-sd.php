@@ -40,19 +40,35 @@
                     </div>
                 </div>
                 <div class="tombol-materi">
-                    <a href="" class="tombol">Soal</a>
+                    <a href="../public/soal-sd.php" class="tombol">Soal</a>
                     <a href="../public/materi-sd.php" class="tombol">Materi</a>
                 </div>
             </div>
 
             <div class="course-card">
-                <img class="course-img" src="../assets/images/equation.png" alt="">
+                <img class="course-img" src="../assets/images/microscope.png" alt="">
                 <div class="course-head">
                     <div class="course-title">
-                        <h1>Matematika</h1>
+                        <h1>IPA</h1>
                     </div>
                     <div class="course-content">
-                        <p>Matematika adalah cabang ilmu yang mempelajari tentang angka, hitungan, struktur, ruang, dan pola yang bertujuan untuk mengembangkan pemahaman konsep dasar matematika dan keterampilan komputasi</p>
+                        <p>IPA seru dan menyenangkan untuk dipelajari.</p>
+                    </div>
+                </div>
+                <div class="tombol-materi">
+                    <a href="" class="tombol">Soal</a>
+                    <a href="" class="tombol">Materi</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <img class="course-img" src="../assets/images/book.png" alt="">
+                <div class="course-head">
+                    <div class="course-title">
+                        <h1>Bahasa Indonesia</h1>
+                    </div>
+                    <div class="course-content">
+                        <p>Menerapkan pengamalan dari Sumpah Pemuda</p>
                     </div>
                 </div>
                 <div class="tombol-materi">

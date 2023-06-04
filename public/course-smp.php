@@ -40,8 +40,8 @@
                     </div>
                 </div>
                 <div class="tombol-materi">
-                    <a href="" class="tombol">Soal</a>
-                    <a href="" class="tombol">Materi</a>
+                    <a href="../public/soal-smp.php" class="tombol">Soal</a>
+                    <a href="../public/materi-smp.php" class="tombol">Materi</a>
                 </div>
             </div>
 

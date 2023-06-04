@@ -6,7 +6,7 @@ require 'function.php';
             echo "<script>
                     alert('user baru berhasil ditambahkan!');
                   </script>";
-            header("Location: ../public/login.html");
+            header("Location: ../public/login.php");
             exit;
             
         } else {
