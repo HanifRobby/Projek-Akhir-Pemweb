@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="web icon" href="../assets/icons/Logo.png">
     <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="../css/profile.css?v=<?php echo time()?>">
+    <link rel="stylesheet" href="../css/profile.css">
     <title>Edukasi</title>
 </head>
 
@@ -32,6 +32,14 @@
         <div class="profil">
             <div class="profile-wrap1">
                 <img class="profile-img" src="../assets/images/user-img.png" alt="">
+
+                <!-- php buat ganti profile img -->
+
+                <form class="profil-pict" action="" method="post" enctype="multipart/form-data">
+                    <label for="profile-img">Ganti Foto Profil</label>
+                    <input type="file" name="profile-picture" id="profile-picture">
+                    <button type="submit" name="edit-profile-img" id="edit-profile-img">Change profile image</button>
+                </form>
             </div>
             <div class="profile-wrap2">
                 <div class="profile-info">
