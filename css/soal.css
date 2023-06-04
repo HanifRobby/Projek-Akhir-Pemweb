@@ -1,8 +1,11 @@
 .soal-card{
+    display: flex;
+    flex-direction: column;
     background-color: var(--primary-color);
     border-radius: 10px;
     gap: 20px;
     width: 80%;
+    padding: 10px; padding-left: 5%;
 }
 
 .chosee{
@@ -14,7 +17,6 @@
     font-size: 22px;
 }
 
-
 .course-card {
     display: flex;
     flex-direction: row;
@@ -25,6 +27,7 @@
     text-decoration: none;
     gap: 20px;
     align-items: center;
+    justify-content: space-around;
 }
 
 .course-board {
@@ -48,14 +51,14 @@
     color: white;
 }
 
-.tombol-materi{
+/* .tombol-materi{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: end;
     padding-left: 260px;
     padding-top: 110px;
-}
+} */
 
 .tombol{
     border-color: white;

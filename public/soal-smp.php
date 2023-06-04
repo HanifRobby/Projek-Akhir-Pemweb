@@ -51,11 +51,7 @@
                         <p class="latihan">Latihan 1</p>
                     </div>
                 </div>
-                <div class="tombol-materi">
-                    <a class="tombol" href="download.php?filename=soal-smp.pdf" download>
-                        Download
-                    </a>
-                </div>
+                <a class="tombol" href="download.php?filename=soal-smp.pdf" download>Download</a>
             </div>
 
             <div class="soal-card">
@@ -64,27 +60,18 @@
                     <h2>-3a - b + 7 dan 13a - (-2b) + 4</h2>
                 </div>
                 <div class="pilihan">
-                        <label class="chosee" for="option1">
-                            <input type="radio" id="option1" name="option" value="option1"> 10a + b + 11 
-                        </label>
-
-                        <br>
-
-                        <label class="chosee" for="option2">
-                            <input type="radio" id="option2" name="option" value="option2"> 11a + b + 12
-                        </label>
-
-                        <br>
-
-                        <label class="chosee" for="option3">
-                            <input type="radio" id="option3" name="option" value="option3"> 12a + b + 13 
-                        </label>
-
-                        <br>
-
-                        <label class="chosee"for="option4">
-                            <input type="radio" id="option3" name="option" value="option3"> 13a + b + 14 
-                        </label>
+                    <label class="chosee" for="option1">
+                        <input type="radio" id="option1" name="option" value="option1"> 10a + b + 11
+                    </label>
+                    <label class="chosee" for="option2">
+                        <input type="radio" id="option2" name="option" value="option2"> 11a + b + 12
+                    </label>
+                    <label class="chosee" for="option3">
+                        <input type="radio" id="option3" name="option" value="option3"> 12a + b + 13
+                    </label>
+                    <label class="chosee" for="option4">
+                        <input type="radio" id="option3" name="option" value="option3"> 13a + b + 14
+                    </label>
                     </form>
                 </div>
             </div>
@@ -93,9 +80,9 @@
 
     </main>
 
-        <!-- footer -->
+    <!-- footer -->
 
-        <footer>
+    <footer>
         <?php require '../components/footer.html'; ?>
     </footer>
 
