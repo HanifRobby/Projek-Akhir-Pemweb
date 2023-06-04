@@ -2,7 +2,6 @@
     require '../components/materi-card.php';
     session_start();
     // ngecek kalo udah login apa belom
-    require '../components/info-card.php';
     if( !isset($_SESSION["login"]) ) {
         header("Location: login.php");
         exit;
@@ -51,35 +50,29 @@
             <h2>Kelas 6</h2>
         </div>
 
-        <?php
-
-        ?>
-
         <div class="materi-board">
-            <div class="materi-card">
-                <img class="materi-img" src="../assets/images/book.png" alt="">
-                <div class="materi-content">
-                    <h1>Penjumlahan</h1>
-                    <p>Pada materi kali ini kalian bakal belajar materi di atas jadi jangan lupa dibaca ya</p>
-                </div>
-                <div class="materi-right">
-                    <a class="download-button" href="download.php?filename=materi-sd.pdf" download>
-                        Download
-                    </a>
-                    <div class="img-share">
-                        <a href="">
-                            <img class="mtr-img" src="../assets/images/love.png" alt="">
-                        </a>
-                        <a href="">
-                            <img class="mtr-img" src="../assets/images/share.png" alt="">
-                        </a>
-                        <a href="">
-                            <img class="mtr-img" src="../assets/images/save.png" alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
+            <?php
+                require_once '../php/function.php';
+                $result = mysqli_query($conn, "SELECT * FROM materi");
+                $mergearray = array();
 
+                if (mysqli_num_rows($result) > 0){
+                    while ($row = mysqli_fetch_assoc($result)) {
+                        $id = $row["id"];
+                        $imagePath = $row["imagePath"];                       
+                        $title =  $row["title"];                       
+                        $content = $row["content"];
+                        $downloadPath = $row["downloadPath"];
+                        $arr = array($imagePath, $title, $content, $downloadPath);
+                        $mergearray[] = $arr;
+                    }
+                }
+                $num_rows = mysqli_num_rows($result);
+
+                for ($x = 0; $x <= $num_rows-1; $x++) {
+                    echo materi_card($mergearray[$x][0], $mergearray[$x][1], $mergearray[$x][2], $mergearray[$x][3]);
+                }    
+            ?>
         </div>
 
     </main>

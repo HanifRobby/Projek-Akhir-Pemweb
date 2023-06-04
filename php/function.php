@@ -1,5 +1,6 @@
 <?php
     $conn = mysqli_connect("localhost", "root", "", "projekakhirpemweb");
+    $conn_materi = mysqli_connect("localhost", "root", "", "materi");
 
     function registrasi($data){
 

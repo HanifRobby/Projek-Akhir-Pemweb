@@ -1,6 +1,7 @@
 <?php
 
-function info_card($imagePath ,$title, $content, $downloadPath)
+require '../php/function.php';
+function materi_card($imagePath ,$title, $content, $downloadPath)
 {
     $html = '
     <div class="materi-card">
