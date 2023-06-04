@@ -1,0 +1,126 @@
+:root {
+    --primary-color: #146C94;
+    --primary-color1: #D7EBED;
+    --secondary-color: #2F2963;
+    --background-color: #AFD3E2;
+}
+
+@font-face {
+    font-family: "Monserrat";
+    src: url("../assets/fonts/Monserrat/Montserrat-Regular.ttf") format("truetype");
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: "Monserrat";
+    margin: 0;
+}
+
+/* profile.php */
+
+.profil {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    padding: 150px 10%;
+    gap: 5%;
+}
+
+.profile-wrap1 {
+    display: flex;
+    align-items: center;
+}
+
+.profile-img {
+    width: 200px;
+}
+
+.profile-wrap2 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 30px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-info .form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-info .nama {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#nama {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+}
+
+.profile-info > .nama, .school, .jenjang {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#sekolah {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+}
+
+#jenjang {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+}
+
+.profile-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-opt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#edit-button, .premium-button, .logout-button {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px; 
+    padding: 5px 10px;
+    border-color: var(--primary-color);
+    border-style: solid;
+    border-radius: 5px;
+    font-weight: 800;
+    font-family: 'Monserrat';
+}
+
+#edit-button:hover, .premium-button:hover, .logout-button:hover {
+    text-decoration: none;
+    background-color: var(--primary-color);
+    border-radius: 5px; 
+    padding: 5px 10px;
+    border-color: var(--primary-color);
+    border-style: solid;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+}
