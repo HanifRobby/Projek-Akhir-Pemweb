@@ -34,7 +34,7 @@ else{
 
     <header>
         <?php
-        require '../components/navbar-login.html';
+        require '../components/navbar-login.php';
         ?>
     </header>
 
@@ -48,7 +48,7 @@ else{
 
                 <!-- php buat ganti profile img -->
 
-                <form class="profil-pict" action="" method="post" enctype="multipart/form-data">
+                <form class="profil-pict" action="../php/changephoto.php" method="post" enctype="multipart/form-data">
                     <label for="profile-img">Ganti Foto Profil</label>
                     <input type="file" name="profile-picture" id="profile-picture">
                     <button type="submit" name="edit-profile-img" id="edit-profile-img">Change profile image</button>
@@ -59,11 +59,11 @@ else{
 
                     <!-- buat action edit.php buat ngedit data dari database -->
 
-                    <form class="form-container" action="edit.php">
+                    <form class="form-container" action="../php/profile.php" method="post">
                         <div class="profile-head">
                             <h1>Profile</h1>
                             <!-- <a class="edit-button" href="" style="height:fit-content;">Edit</a> -->
-                            <button type="submit" value="edit" id="edit-button">Edit</button>
+                            <input class="tombol" type="submit" value="Simpans" name = "Simpan" id="Simpan" >
                         </div>
                         <div class="nama">
                             <label for="">
@@ -72,19 +72,19 @@ else{
 
                             <!-- placehoder ambil data dari database -->
 
-                            <input type="text" name="nama" id="nama" placeholder="">
+                            <input type="text" name="fullname" id="fullname" placeholder="">
                         </div>
                         <div class="school">
-                            <label for="">
-                                <h2>Sekolah</h2>
-                            </label>
-                            <input type="text" name="sekolah" id="sekolah" placeholder="">
-                        </div>
-                        <div class="jenjang">
                             <label for="">
                                 <h2>Jenjang</h2>
                             </label>
                             <input type="text" name="jenjang" id="jenjang" placeholder="">
+                        </div>
+                        <div class="jenjang">
+                            <label for="">
+                                <h2>Kelas</h2>
+                            </label>
+                            <input type="text" name="kelas" id="kelas" placeholder="">
                         </div>
                     </form>
                 </div>

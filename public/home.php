@@ -31,7 +31,7 @@
     <!-- header -->
 
     <header>
-        <?php require '../components/navbar-login.html'?>
+        <?php require '../components/navbar-login.php'?>
     </header>
 
     <!-- main -->

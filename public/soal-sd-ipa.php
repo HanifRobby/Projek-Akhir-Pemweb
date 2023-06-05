@@ -34,7 +34,7 @@
 
     <!-- header -->
     <header>
-        <?php require '../components/navbar-login.html' ?>
+        <?php require '../components/navbar-login.php' ?>
     </header>
 
     <!-- main -->
@@ -47,7 +47,7 @@
                     <div class="course-title">
                         <h1>SEKOLAH DASAR</h1>
                     </div>
-                    <div class="course-content">
+                    <div class="course-content"> 
                         <h1 class="judul">Ilmu Pengetahuan Alam</h1>
                         <p class="latihan">Latihan 1</p>
                     </div>

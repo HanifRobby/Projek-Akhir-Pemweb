@@ -36,7 +36,7 @@
 
     <header>
         <?php
-        require '../components/navbar-login.html';
+        require '../components/navbar-login.php';
         ?>
     </header>
 
