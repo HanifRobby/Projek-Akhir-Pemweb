@@ -44,7 +44,7 @@
     <main>
 
         <div class="materi-head-container">
-            <img class="materi-img" src="../assets/images/book.png" alt="">
+            <img class="materi-img" src="../assets/images/equation.png" alt="">
             <div class="materi-head">
                 <h1>Sekolah Menengah Pertama</h1>
                 <h1>Matematika</h1>
@@ -58,7 +58,7 @@
 
         <div class="materi-board">
             <div class="materi-card">
-                <img class="materi-img" src="../assets/images/book.png" alt="">
+                <img class="materi-img" src="../assets/images/equation.png" alt="">
                 <div class="materi-content">
                     <h1>Aljabar dan Trigonometri Dasar</h1>
                     <p>Pada materi kali ini kalian bakal belajar materi di atas jadi jangan lupa dibaca ya</p>

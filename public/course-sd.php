@@ -64,15 +64,15 @@
                 <img class="course-img" src="../assets/images/microscope.png" alt="">
                 <div class="course-head">
                     <div class="course-title">
-                        <h1>IPA</h1>
+                        <h1>Ilmu Pengetahuan Alam</h1>
                     </div>
                     <div class="course-content">
                         <p>IPA seru dan menyenangkan untuk dipelajari.</p>
                     </div>
                 </div>
                 <div class="tombol-materi">
-                    <a href="" class="tombol">Soal</a>
-                    <a href="" class="tombol">Materi</a>
+                    <a href="../public/soal-sd-ipa.php" class="tombol">Soal</a>
+                    <a href="../public/materi-sd-ipa.php" class="tombol">Materi</a>
                 </div>
             </div>
 
@@ -87,8 +87,8 @@
                     </div>
                 </div>
                 <div class="tombol-materi">
-                    <a href="" class="tombol">Soal</a>
-                    <a href="" class="tombol">Materi</a>
+                    <a href="../public/soal-sd-bindo.php" class="tombol">Soal</a>
+                    <a href="../public/materi-sd-bindo.php" class="tombol">Materi</a>
                 </div>
             </div>
 

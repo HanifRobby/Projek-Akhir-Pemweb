@@ -42,10 +42,10 @@
     <main>
 
         <div class="materi-head-container">
-            <img class="materi-img" src="../assets/images/equation.png" alt="">
+            <img class="materi-img" src="../assets/images/book.png" alt="">
             <div class="materi-head">
                 <h1>Sekolah Dasar</h1>
-                <h1>Matematika</h1>
+                <h1>Bahasa Indonesia</h1>
             </div>
             <h2>Kelas 6</h2>
         </div>
@@ -53,7 +53,7 @@
         <div class="materi-board">
             <?php
                 require_once '../php/function.php';
-                $result = mysqli_query($conn, "SELECT * FROM materi");
+                $result = mysqli_query($conn, "SELECT * FROM materi3");
                 $mergearray = array();
 
                 if (mysqli_num_rows($result) > 0){
