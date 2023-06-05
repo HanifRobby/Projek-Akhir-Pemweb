@@ -17,7 +17,7 @@
             <div class="group2">
                 <h1 class="judul">SIGN IN</h1>
                 <form action="../php/login.php" method="post">
-                    <label class="email" for="username">Email:</label>
+                    <label class="email" for="username">Username:</label>
                     <br>
                     <input class="kolom" type="text" id="username" name="username" required>
                     <br>

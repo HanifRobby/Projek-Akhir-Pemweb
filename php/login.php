@@ -25,8 +25,10 @@ if( isset($_POST["Login"]) ) {
 			exit;
 		}
 		else{
-			echo "pass anda salah";
-			header("Location: ../public/login.html");
+			echo "<script>
+					alert('Username atau password salah!');
+		  		</script>";
+			header("Location: ../public/login.php");
 			exit;
 			
 			
