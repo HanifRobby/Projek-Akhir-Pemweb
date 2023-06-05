@@ -93,8 +93,8 @@
                       }
                     }
                     </script>
-                <a class="nav-button" href="#">Event</a>
-                <a class="nav-button" href="#">Layanan</a>
+                <a class="nav-button" href="#event">Event</a>
+                <a class="nav-button" href="#about">About</a>
                 <a class="profile" href="../public/profile.php"><img class="user-icon" src="../assets/icons/user.png" alt=""></a>
             </div>
         </div>

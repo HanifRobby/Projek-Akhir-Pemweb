@@ -58,7 +58,7 @@
                 <img id="dash-img2" src="../assets/images/landingpage-image2.png" style="width: 50%" alt="">
             </div>
         </section>
-        <section class="information">
+        <section class="information" id="event">
             <div class="info-head">
                 <h1 style="font-size: 2rem; font-weight: 1000;">Informasi Terkini</h1>
                 <p style="font-size: 1.2rem;">Dapatkan informasi terkini mengenai lomba, beasiswa, webinar, dan
@@ -74,7 +74,7 @@
                 ?>
             </div>
         </section>
-        <section class="about">
+        <section class="about" id="about">
             <div class="about-head">
                 <h1 style="font-size: 2rem;">About This Course</h1>
                 <p style="font-size: 1.2rem;">EDUKASI kali ini mempunyai beberapa keunggulan diantaranya seperti berikut</p>
