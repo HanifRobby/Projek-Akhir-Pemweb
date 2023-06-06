@@ -1,6 +1,6 @@
 <?php
     require '../components/materi-card.php';
-    session_start();
+    // session_start();
     // ngecek kalo udah login apa belom
     if( !isset($_SESSION["login"]) ) {
         header("Location: login.php");
@@ -46,6 +46,7 @@
             <div class="materi-head">
                 <h1>Sekolah Dasar</h1>
                 <h1>Matematika</h1>
+                <h1>Penjumlahan Dasar</h1>
             </div>
             <h2>Kelas 6</h2>
         </div>
