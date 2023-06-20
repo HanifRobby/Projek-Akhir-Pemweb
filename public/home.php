@@ -104,7 +104,7 @@
 
     </main>
 
-    <!-- footer -->
+    <!-- Footer -->
 
     <footer>
         <?php require '../components/footer.html'; ?>
