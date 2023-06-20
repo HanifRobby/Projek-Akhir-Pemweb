@@ -12,13 +12,6 @@
                     </div>
                 </a>
 
-                <h3>Selamat datang 
-                    <?php
-                    $row = $_SESSION["row"];
-                    echo $row['username'];
-                    ?>
-                </h3>
-
             </div>
             <div class="nav">
                 <style>

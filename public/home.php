@@ -49,6 +49,16 @@
                     <p>Perluas wawasan dan keterampilan Anda. Jelajahi topik yang Anda minati dan raih keunggulan dalam
                         karir Anda</p>
                 </div>
+                <div class="welcome">
+                <h2>Welcome 
+                    <?php
+                    $row = $_SESSION["row"];
+                    echo $row['username'];
+                    ?>
+                    !
+                </h2>
+                </div>
+                <!-- <iframe width="420" height="315" src="https://www.youtube.com/embed/FUaaGInT_R8"></iframe> -->
                 <div>
 
                 </div>

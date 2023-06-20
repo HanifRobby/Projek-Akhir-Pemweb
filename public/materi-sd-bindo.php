@@ -1,6 +1,5 @@
 <?php
     require '../components/materi-card.php';
-    session_start();
     // ngecek kalo udah login apa belom
     if( !isset($_SESSION["login"]) ) {
         header("Location: login.php");
@@ -54,7 +53,9 @@
             <?php
                 require_once '../php/function.php';
                 $result = mysqli_query($conn, "SELECT * FROM materi3");
+                $resultyutub = mysqli_query($conn, "SELECT * FROM yutubbindo");
                 $mergearray = array();
+                $mergearray2 = array();
 
                 if (mysqli_num_rows($result) > 0){
                     while ($row = mysqli_fetch_assoc($result)) {
@@ -67,10 +68,25 @@
                         $mergearray[] = $arr;
                     }
                 }
+                if (mysqli_num_rows($resultyutub) > 0){
+                    while ($row = mysqli_fetch_assoc($resultyutub)) {
+                        $id = $row["id"];
+                        $link = $row["link"];
+                        $arr2 = array($id, $link);
+                        $mergearray2[] = $arr2;
+                        // $imagePath = $row["imagePath"];                       
+                        // $title =  $row["title"];                       
+                        // $content = $row["content"];
+                        // $downloadPath = $row["downloadPath"];
+                        // $arr = array($imagePath, $title, $content, $downloadPath);
+                        // $mergearray[] = $arr;
+                    }
+                }
                 $num_rows = mysqli_num_rows($result);
+                $num_rows_yutub = mysqli_num_rows($resultyutub);
 
                 for ($x = 0; $x <= $num_rows-1; $x++) {
-                    echo materi_card($mergearray[$x][0], $mergearray[$x][1], $mergearray[$x][2], $mergearray[$x][3]);
+                    echo materi_card($mergearray[$x][0], $mergearray[$x][1], $mergearray[$x][2], $mergearray[$x][3], $mergearray2[$x][1]);
                 }    
             ?>
         </div>

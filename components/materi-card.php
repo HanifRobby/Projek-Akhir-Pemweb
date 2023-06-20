@@ -1,7 +1,7 @@
 <?php
 
 require '../php/function.php';
-function materi_card($imagePath ,$title, $content, $downloadPath)
+function materi_card($imagePath ,$title, $content, $downloadPath, $link)
 {
     $html = '
     <div class="materi-card">
@@ -26,7 +26,17 @@ function materi_card($imagePath ,$title, $content, $downloadPath)
                 </a>
             </div>
         </div>
-    </div>';
+    </div>
+    <iframe class="video" width="420" height="315" src="'.$link.'"></iframe>';
+
+    
 
     return $html;
 }
+
+// function youtube($link)
+// {
+//     $html = 
+//     '<iframe width="420" height="315" src="'.$link.'"></iframe>';
+//     return $html;
+// }
